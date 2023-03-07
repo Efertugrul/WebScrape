@@ -22,6 +22,8 @@ for day in weather_data:
     final_data.append([date, max_temp, min_temp, weather_condition, chance, wind_direction, wind_speed])
 
 print(final_data)
+
+//change the local directory
 with open("Python/ELEC390/ELEC390_Lab2.txt", 'w') as f:
         for data in final_data:
             f.write(str(data) + '\n')
