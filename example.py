@@ -24,6 +24,6 @@ for day in weather_data:
 print(final_data)
 
 //change the local directory
-with open("Python/ELEC390/ELEC390_Lab2.txt", 'w') as f:
+with open("Python/ELEC390/test.txt", 'w') as f:
         for data in final_data:
             f.write(str(data) + '\n')
